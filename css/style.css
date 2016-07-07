@@ -1,9 +1,9 @@
 body {
-		padding: 0 11%;
-min-height: 100%;
+		padding: 0 150px;
 }
+
 .con {
-	padding: 0 4%;
+	padding: 5px 20px;
 	background-color: #ffffff;
 	box-shadow: 0 0 5px #dbdbdb;
 	font-family: 'Open Sans', arial;
@@ -19,9 +19,7 @@ font-size: 14px;
 }
 
 .navigation	{
-margin: 4% 0;
-	padding: 0;
-	width: 100%;
+margin: 20px 0;
 	height: 40px;
 	line-height: 40px;
   background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
@@ -32,13 +30,13 @@ margin: 4% 0;
 
 .navigation ul {
 	list-style: none;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 }
 
 .navigation li {
 	display: inline-block;
-	width: 12%;
+	width: 130px;
 text-align: center;
 }
 
@@ -56,6 +54,7 @@ text-align: center;
   background-image: -ms-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
 	border-left: 1px solid #838383;
 	border-right: 1px solid #838383;
+	width: 128px;
 }
 
 .navigation li a:active {
